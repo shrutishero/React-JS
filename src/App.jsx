@@ -55,32 +55,49 @@
 // export default App
 
 
+// // /**************************************************************Props******************************************** */
+// import React from 'react'
+// import User from './User'
+
+// const App = () => {
+  
+//   let userObj = {
+//     name:'Abcd',
+//     age:20,
+//     email:'abcd@gmail.com',
+//     city:'Delhi'
+//   }
+//   let userObj2 = {
+//     name:'peter',
+//     age:20,
+//     email:'peter@gmail.com',
+//     city:'Delhi'
+//   }
+
+//   return (
+//     <>
+//      <h1>App Component</h1>
+//      <User user={userObj} />
+//      <User user={userObj2} />
+      
+//     </>
+//   )
+// }
+
+// export default App
+
 
 import React from 'react'
 import User from './User'
 
 const App = () => {
-  
-  let userObj = {
-    name:'Abcd',
-    age:20,
-    email:'abcd@gmail.com',
-    city:'Delhi'
-  }
-  let userObj2 = {
-    name:'peter',
-    age:20,
-    email:'peter@gmail.com',
-    city:'Delhi'
-  }
+ 
 
   return (
-    <>
-     <h1>App Component</h1>
-     <User user={userObj} />
-     <User user={userObj2} />
+     <>
       
-    </>
+      <User />
+     </>
   )
 }
 
